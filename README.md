@@ -1,6 +1,6 @@
 # _Pig Dice_
 
-#### _An exciting dice game of chance, november 1 2017_
+#### _An exciting dice game of chance, November 1 2017_
 
 #### By _**Connor Miller**_
 

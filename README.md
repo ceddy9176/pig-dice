@@ -1,56 +1,76 @@
-# Pig-Dice
+# _Pig Dice_
 
-<a href="APP LINK IF APPLICABLE" target="#"><APP LINK NAME></a>
+#### _An exciting dice game of chance, november 1 2017_
 
-By Jennifer Bolanos (<a href=https://github.com/jbolanos707/pig-dice.git target="#">GitHub</a>)
+#### By _**Connor Miller**_
 
-@ Epicodus Programming School, Portland, OR
+## Description
 
-GNU General Public License, version 3 (see below). Copyright (c) 2015 Jennifer Bolanos.
+_Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold" aka end their turn:
 
-### Description
+* If the player rolls a 1, they score nothing and it becomes the next player's turn.
+* If the player rolls any other number, it is added to their turn total and the player's turn continues.
+* If a player chooses to "hold" "end turn", their turn total is added to their score, and it becomes the next player's turn.
+*The first player to score 100 or more points wins._
 
-Pig Dice is a simple jeopardy dice game. Following are the game rules:
+## Setup/Installation Requirements
 
-Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":
+1. Clone this repository at:
+  * https://github.com/ceddy9176/pig-dice
+2. Move into the project folder
+3. Open index.html in the browser of your choice (we suggest Chrome)
 
-If the player rolls a 1, they score nothing and it becomes the next player's turn.
-If the player rolls any other number, it is added to their turn total and the player's turn continues.
-If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.
-The first player to score 100 or more points wins.
+## Specifications
 
-### Author(s)
+* Assigns player names and starting score of 0 into object.
+  * Example Input: jim
+  * Example Output: Player 1 {jim, 0}
 
-Jennifer Bolanos
+* Generate random, whole number between 1-6 when prompted
+  * Example Input: Roll.click()
+  * Example Output: 1 || 2 || 3 || 4 || 5 || 6
 
-Jessica Engel
+* Sums all subsequent rolls in a single turn
+  * Example Input: Rolls of (1, 3, 3, 6)
+  * Example Output: Turn total: 13
+
+* Removes turn total and ends turn if 1 is rolled.
+  * Example Input: Roll = 1
+  * Example Output: "Oh no! You don't get any points! End turn"
+
+* Adds turn total to given player's total score.
+  * Example Input: (Player 1 total score =20) endTurn.click(), turn total = 30
+  * Example Output: Player 1 total = 50
+
+* Change display and inputs for second player's turn.
+  * Example Input: Player 1 turn ends (endTurn.click() or 1 is rolled)
+  * Example Output: Player 2- GO!
+
+* Ends game when player reaches 100 points
+  * Example Input: Player1 total score => 100
+  * Example Output: "Player one wins!"
+
+*
+  * Example Input:
+  * Example Output:
 
 
-### Setup
+## Known Bugs\
 
-This app was written in jquery-1.11.3.js.
+_No know bugs :)_
 
-Clone this repo with
-```console
-> git clone https://github.com/jbolanos707/pig-dice.git
-```
+## Support and contact details
 
-Start App:
+_For help, contact:_
+* [ceddy9176@gmail.com](mailto:ceddy9176@gmail.com)
 
-Open pig_dice.html in any browser.
 
-### License ###
-Copyright  (C)  2015  Jennifer Bolanos
+## Technologies Used
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or    
-(at your option) any later version.
+_HTML, CSS, JavaScript, jQuery, Bootstrap_
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+### License
 
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
+This website is licensed under the MIT license
+
+Copyright (c) 2016 **Connor Miller**

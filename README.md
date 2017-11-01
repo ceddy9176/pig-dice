@@ -1,24 +1,24 @@
 # _Pig Dice_
 
-#### _An exciting dice game of chance, November 1 2017_
+#### _A dice game of chance, November 1 2017_
 
 #### By _**Connor Miller**_
 
 ## Description
 
-_Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold" aka end their turn:
+Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold" aka end their turn:
 
 * If the player rolls a 1, they score nothing and it becomes the next player's turn.
 * If the player rolls any other number, it is added to their turn total and the player's turn continues.
 * If a player chooses to "hold" "end turn", their turn total is added to their score, and it becomes the next player's turn.
-*The first player to score 100 or more points wins._
+* The first player to score 100 or more points wins.
 
 ## Setup/Installation Requirements
 
 1. Clone this repository at:
   * https://github.com/ceddy9176/pig-dice
 2. Move into the project folder
-3. Open index.html in the browser of your choice (we suggest Chrome)
+3. Open index.html in the browser of your choice (I suggest Chrome)
 
 ## Specifications
 
@@ -55,7 +55,7 @@ _Each turn, a player repeatedly rolls a die until either a 1 is rolled or the pl
   * Example Output:
 
 
-## Known Bugs\
+## Known Bugs
 
 _No know bugs :)_
 

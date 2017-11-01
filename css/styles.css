@@ -7,8 +7,8 @@ button {
   align-self: center;
 }
 
-li{
-  color: black;
+li {
+  color:black;
 }
 
 .jumbotron{
@@ -16,7 +16,6 @@ li{
   font-size: 4em;
   background-color: gray;
 }
-
 .col-md-5 {
   border: 2px solid black;
 }
@@ -31,9 +30,10 @@ li{
 }
 
 #navBarList {
-  font-size: 1em;
+  font-size: 1.2em;
   cursor: pointer;
-  color:
+  color: white;
+  margin-right: 600px;
 }
 
 #navBarList:hover {
@@ -43,26 +43,27 @@ li{
 #rollResult {
   border: 2px solid black;
   display: none;
-  background: ;
+  background: white;
   text-align: center;
   font-size: 3em;
 }
 
 #turnTotalStuff {
   text-align: center;
+
 }
 
 #turnTotal {
-  text-align: center;
-  border: 22px solid black;
-  font-size: 3em;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 3em;
 }
 
 #player1Display {
   display: none;
   text-align: center;
   border: 2px solid black;
-  color: ;
+  color: white;
   background-color: black;
 }
 
@@ -70,13 +71,14 @@ li{
   display: none;
   text-align: center;
   border: 2px solid black;
-  color: ;
+  color: white;
   background-color: black;
 }
 
+
 #turnTotalStuff {
   border: 2px dashed black;
-}
+  }
 
 .row {
   text-align: center;

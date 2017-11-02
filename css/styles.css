@@ -1,5 +1,9 @@
 form {
   text-align: center;
+  background-color: white;
+  border-radius: 7px;
+  padding-top: 40px;
+  padding-bottom: 25px;
 }
 
 button {
@@ -9,6 +13,27 @@ button {
 
 li {
   color:black;
+}
+
+body {
+  background-image: url("/Users/connor/Desktop/pig-dice/img/gamblingPig2.png");
+  background-size: cover;
+}
+
+.nav {
+  margin-top: 5px;
+  margin-left: 30px;
+  border-color: black;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.nav:hover {
+  background-color: rgb(245, 141, 140);
+  border-color: black;
+}
+#link {
+  text-align: center;
 }
 
 #imgL {
@@ -23,13 +48,22 @@ li {
   margin-left: 20%;
 }
 
+.page-header {
+  margin-top: 0;
+  border-bottom: 0;
+}
+
 .jumbotron{
   text-align: center;
   font-size: 4em;
   background-color: #ffa4a3;
+  margin-top: 0;
+  padding: 40px;
 }
 .col-md-5 {
-  border: 2px solid black;
+  border: 1px solid black;
+  background-color: white;
+  margin-top: 15px;
 }
 
 .showTurnTotal {
@@ -39,17 +73,19 @@ li {
 
 .gameStuff {
   display: none;
+  background-color: white;
 }
 
 #navBarList {
   font-size: 1.2em;
   cursor: pointer;
   color: white;
-  margin-right: 600px;
+
 }
 
 #navBarList:hover {
   text-decoration: underline;
+
 }
 
 #rollResult {
@@ -87,11 +123,17 @@ li {
   background-color: black;
 }
 
-
-#turnTotalStuff {
-  border: 2px dashed black;
-  }
-
 .row {
   text-align: center;
+}
+
+.btn {
+  background-color: #ffa4a3;
+  border-color: black;
+}
+
+.btn-primary:hover {
+  color:#fff;
+  background-color: rgb(245, 141, 140);
+  border-color:black;
 }

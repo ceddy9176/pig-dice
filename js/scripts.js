@@ -58,9 +58,11 @@ $(document).ready(function() {
     changePlayers();
     if (playersArray[0].score >= 100){
       alert(playersArray[0].playerName + " wins!!");
+      playAlert("pig3.mp3");
       document.location.reload(true);
     } else if (playersArray[1].score >= 100) {
       alert(playersArray[1].playerName + " wins!!");
+      playAlert("pig3.mp3")
       document.location.reload(true);
   }
   });
